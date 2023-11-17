@@ -1,0 +1,77 @@
+/** Variables, Initializations and Resetting Styles **/
+
+:root {
+	
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.table-container {
+	font-size: 2rem;
+	position: relative;
+	width: fit-content;
+}
+
+/* Table */
+.table {
+	padding: 10px;
+	border: 1px solid black;
+	background-color: aliceblue;
+}
+
+.table__header {
+	padding: 5px 10px;
+	background-color: aquamarine;
+}
+
+.table__input {
+	width: 50px;
+	font-family: inherit;
+	font-size: inherit;
+	text-align: center;
+	border: none;
+	background-color: transparent;
+}
+
+.table__buy-points {
+	right: -35px;
+	bottom: -25px;
+	position: absolute;
+
+	font-size: 1.8rem;
+}
+
+.table__buy-points-title {
+	position: relative;
+	left: -10px;
+}
+
+.table__remaining-points {
+	text-align: end;
+	display: inline-block;
+	width: 25px;
+	padding-right: 10px;
+}
+
+.table__column:not(.table__header) {
+	padding: 0px 10px;
+	height: 40px;
+}
+
+.table__column:not(.table__column--abilities) {
+	text-align: center;
+}
+
+.table__column--modifier:not(.table__header) {
+	font-weight: bold;
+	background-color: rgb(178, 225, 226);
+}

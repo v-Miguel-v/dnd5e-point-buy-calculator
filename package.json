@@ -1,0 +1,20 @@
+{
+  "name": "dnd5e-point-buy-calculator",
+  "version": "1.0.0",
+  "description": "Una calculadora para la elección de puntuaciones de característica de D&D5e mediante el sistema de compra de puntos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dnd5e",
+    "calculator",
+    "buy",
+    "point",
+    "ability",
+    "score",
+    "scores"
+  ],
+  "author": "Miguel Velásquez <vmiguel.xy@gmail.com>",
+  "license": "MIT"
+}
